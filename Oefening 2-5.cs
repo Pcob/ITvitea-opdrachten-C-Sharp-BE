@@ -3,7 +3,7 @@
 namespace Csharp
 {
   
-    public class ExerciseFour
+    public class ExerciseFive
     {
         static public void Main()
         {
