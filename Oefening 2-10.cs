@@ -8,8 +8,8 @@ namespace Csharp
     {
         static void Main(string[] args)
         {
-            int Inkoopprijs, intSom;
-            double winstmarge;
+            double Inkoopprijs, winstmarge, intSom;
+            
 
             Console.WriteLine("Berekening van winstmarge op inkoopprijzen");
             Console.Write("Type inkoopprijs: ");
@@ -17,7 +17,7 @@ namespace Csharp
             winstmarge = 1.90;
            
 
-            intSom = (Inkoopprijs * (int)winstmarge);
+            intSom = (Inkoopprijs / 100 * 190);
 
             Console.ForegroundColor = ConsoleColor.Red;
 
